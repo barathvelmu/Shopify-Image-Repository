@@ -46,14 +46,14 @@ function App() {
   }, [tag])
 
   return (
-		<div className="App">
+      <div className="App">
 
-			<div className="tags">
-				<TagButton name="all" currentTags={tag === 'all' ? true : false} setTagValue={setTag} /> /
-				<TagButton name="earth" currentTags={tag === 'earth' ? true : false} setTagValue={setTag} /> /
-				<TagButton name="water" currentTags={tag === 'water' ? true : false} setTagValue={setTag} /> /
-				<TagButton name="building" currentTags={tag === 'building' ? true : false} setTagValue={setTag} />
-			</div>
+	<div className="tags">
+		<TagButton name="all" currentTags={tag === 'all' ? true : false} setTagValue={setTag} /> /
+		<TagButton name="earth" currentTags={tag === 'earth' ? true : false} setTagValue={setTag} /> /
+		<TagButton name="water" currentTags={tag === 'water' ? true : false} setTagValue={setTag} /> /
+		<TagButton name="building" currentTags={tag === 'building' ? true : false} setTagValue={setTag} />
+	</div>
 
       <Search />
 

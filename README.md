@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Winter 2022 - Shopify Developer Intern Challenge 🌁
+## Image Repository
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Challenge Link: https://docs.google.com/document/d/1eg3sJTOwtyFhDopKedRD6142CFkDfWp1QvRKXNTPIOc/edit
 
-## Available Scripts
+## Introduction
+Welcome to my Image Repository Challenge repository! Hope all is well :) 
 
-In the project directory, you can run:
+*Project was built using HTML, CSS, JavaScript, ReactJS, and Simple React Lightbox*
 
-### `yarn start`
+## What is the goal of this project?
+This project was built for Shopify's Developer Intern Challenge, Winter 2022. I wanted to challenge myself and build the Image Repository using ReactJS as I picked it up over this summer. I would like to mention that the main highlight/feature for this build was the SEARCH functionality. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Side note: For practice on ReactJS, I had built 2 projects, "[share-note](https://github.com/barathvelmu/share-note)" and "[remind-me](https://github.com/barathvelmu/remind-me)", which are both available on my GitHub page for reference. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This project was my first time writing unit tests in ReactJS as well! Therefore, lots of learning! Definitely so much more different from Spring's testing framework! 
 
-### `yarn test`
+Features of my Image Repository (please view project demo): 
+- image tagging ability
+- image segration based on tags: All, Earth, Water, Building 
+- **search functionality** by image name and image tag (searchbar)
+- lightbox effect with zoom in functionality
+- image download functionality
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How do I use this project?:
+It's actually very simple! The repository features 16/32 pictures and defaults the "All" tag page as the homepage. There exists a searchbar at the top left where the user can either search by a specific image name or image tag. For the purpose of the project, the image names are "imgX" where X = 1, 2, ..., 16. 
 
-### `yarn build`
+Last but not least, the user is given the ability to switch between the tags on the navbar above. As introduced in the section above, the tags are "All, Earth, Water, Building". This will filter the pictures for the respective tag requested by the user. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For more information, please view the project demo linked at the end of the README page. Thank you! 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Future Improvements:
+- Dynamic search, images accordingly vanish/appear according to user actions  
+- Search by image characteristics (not limited to 1)
+- Some overlay effect on image grid (e.g., with name)
+- Ability to import or ADD images.
+- Ability to remove or DELETE images.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Project Demo: 
+Please visit: https://youtu.be/RinWZ4qtZRU
