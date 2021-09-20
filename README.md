@@ -1,4 +1,5 @@
-# Winter 2022 - Shopify Developer Intern Challenge, Image Repository
+# Winter 2022 - Shopify Developer Intern Challenge
+## Image Repository
 
 ## Introduction
 Welcome to my Image Repository Challenge repository! Hope all is well :) 
