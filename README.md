@@ -36,5 +36,5 @@ For more information, please view the project demo linked at the end of the READ
 - Ability to import or ADD images.
 - Ability to remove or DELETE images.
 
-## Project Demo: 
+## 30s Project Demo: 
 Please visit: https://youtu.be/RinWZ4qtZRU
