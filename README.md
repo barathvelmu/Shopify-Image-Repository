@@ -1,6 +1,8 @@
 # Winter 2022 - Shopify Developer Intern Challenge
 ## Image Repository
 
+Challenge Link: https://docs.google.com/document/d/1eg3sJTOwtyFhDopKedRD6142CFkDfWp1QvRKXNTPIOc/edit
+
 ## Introduction
 Welcome to my Image Repository Challenge repository! Hope all is well :) 
 
