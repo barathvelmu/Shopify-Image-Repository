@@ -1,0 +1,41 @@
+hr.dotted {
+  border-top: 3px dotted #bbb;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
+
+.tags {
+	text-align: center;
+	padding: 20px 0px;
+	background-color: #FFE5B4;
+}
+
+.tag {
+	outline: none;
+	border: none;
+	color: #eee;
+	margin: 0px 10px;
+	color: black;
+	cursor: pointer;
+}
+
+.active {
+	font-weight: bold;
+}
+
+.image-card {
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+}
+
+.image {
+	width: 100%;
+}
