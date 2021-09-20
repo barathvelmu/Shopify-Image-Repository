@@ -23,7 +23,8 @@ const searchBarImages = (images, query) => {
   }
   return images.filter((image) => {
       const name = image.nameOfImage.toLowerCase();
-      return name.includes(query);
+      const tag = image.tag.toLowerCase();
+      return (name.includes(query) || tag.includes(query));
   });
 };
 
@@ -87,7 +88,7 @@ function App() {
 }
 
 const TagButton = ( {name, setTagValue, currentTags} ) => {
-  return <button className = {`tag ${ currentTags ? 'active' : null}`} onClick={ () => setTagValue(name)}>
+  return <button className = {`tag ${ currentTags ? 'current' : null}`} onClick={ () => setTagValue(name)}>
             { name.toUpperCase()}
          </button>
 }
