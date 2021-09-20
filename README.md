@@ -1,4 +1,4 @@
-# Winter 2022 - Shopify Developer Intern Challenge
+# Winter 2022 - Shopify Developer Intern Challenge 🌁
 ## Image Repository
 
 Challenge Link: https://docs.google.com/document/d/1eg3sJTOwtyFhDopKedRD6142CFkDfWp1QvRKXNTPIOc/edit
